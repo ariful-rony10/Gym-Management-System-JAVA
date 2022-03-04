@@ -34,7 +34,7 @@ Prepared By
     - [NORMALIZATION](#normalization)
     - [SCHEMA DIAGRAM](#schema-diagram)
     - [TABLE CREATION](#table-creation)
-      - [**DATA INSERTION:**](#data-insertion)
+    - [DATA INSERTION:](#data-insertion)
     - [SQL](#sql)
       - [**SINGLE ROW:**](#single-row)
       - [**GROUP FUNCTION:**](#group-function)
@@ -378,7 +378,7 @@ create table member(mem_id number(2) primary key, mem_name varchar2(40) not null
 varchar2(40)notnull,mem_schedule number(2), blood_group varchar2(2),weight number(2), height number(2), age number(3), t_id number(2), p_id number(2));
 ```
 
-#### **DATA INSERTION:**
+### DATA INSERTION:
 
 ---
 
